@@ -75,6 +75,10 @@ button:hover {
     color: rgba(255, 255, 255, 0.336);
 }
 
+.riscado {
+    text-decoration: line-through;
+}
+
 
 footer {
     background-color: aliceblue;

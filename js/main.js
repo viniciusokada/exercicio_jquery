@@ -9,6 +9,10 @@ $(document).ready(function (){
         
         $(`<li>${novaTarefa}</li>`).appendTo(novoItem);
         
+        $('li').click(function() {
+            $(this).addClass('riscado');
+        }); 
+        
         $(novoItem).appendTo('ul');
 
         $('#nome-tarefa').val('');
